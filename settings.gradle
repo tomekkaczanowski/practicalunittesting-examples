@@ -1,1 +1,1 @@
-include 'chp_02_financial_service'
+include 'chp_02_financial_service', 'chp_03_money'
