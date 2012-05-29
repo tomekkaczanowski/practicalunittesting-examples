@@ -1,20 +1,48 @@
 == Basic Info
-This project contains all the source code examples for "Practical Unit Testing with TestNG and Mockito".
+This project contains all the source code of examples for "Practical Unit Testing with TestNG and Mockito".
 
 See the book's website: http://practicalunittesting.com
 
-== Prerequisites
-TBD
-
 == Import project to your IDE
-TBD
 
 === Eclipse
-TBD
+First you need to generate Eclipse project files. If you have Gradle installed then type
+
+----
+gradle eclipse
+----
+
+In other cases (this will take some time - first Gradle will be downloaded):
+
+----
+./gradlew eclipse
+----
+
+After this you can import this project to Eclipse as any other project (File / Import / General / Existing Project into Workspace). As far as I know (not being an Eclipse guru!) you need to import each project individually.
 
 === IntelliJ IDEA
-TBD
+You can import files by choosing:
+
+* File / New Project / Import project from external module
+* select Gradle
+* and then select +build.gradle+ file
+
+== Content
+For your convenience all exercises are kept in separate dirs with names like "chp_X_exercise_name" where X is the chapter number:
+
+TODO more of them in examples
+
+* Chapter 2 "Developers Tests"
+* Chapter 3 "Unit Tests with no Collaborators"
+* Chapter 4 "Test Driven Development"
+* Chapter 5 "Mocks, Stubs, Test Spies"
+* Chapter 6 "Things You Should Know"
+* Chapter 7 "Points of Controversy"
+* Chapter 8 "Getting Feedback"
+* Chapter 9 "Organization of Tests"
+* Chapter 10 "Maintainable Tests"
+* Chapter 11 "Test Quality"
 
 == Some tests fail - yes, on purpose
-TBD
+TODO
 
