@@ -1,1 +1,3 @@
-include 'chp_02_financial_service', 'chp_03_money'
+include 'chp_02_financial_service',
+        'chp_03_money', 'chp_03_client',
+        'chp_04_football_team', 'chp_04_client'
