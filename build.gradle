@@ -22,6 +22,13 @@ subprojects {
     }
 }
 
+project(':chp_06_expected_exceptions') {
+    dependencies {
+        testCompile 'com.googlecode.catch-exception:catch-exception:1.0.4'
+    }
+}
+
+
 task wrapper(type: Wrapper) {
     gradleVersion = '1.0-milestone-8'
 }
