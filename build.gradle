@@ -28,7 +28,6 @@ project(':chp_06_expected_exceptions') {
     }
 }
 
-
 task wrapper(type: Wrapper) {
-    gradleVersion = '1.0-milestone-8'
+    gradleVersion = '1.0-rc-3'
 }
