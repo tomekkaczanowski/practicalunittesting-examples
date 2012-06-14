@@ -28,6 +28,24 @@ project(':chp_06_expected_exceptions') {
     }
 }
 
+project(':chp_06_time') {
+    dependencies {
+        testCompile 'joda-time:joda-time:2.1'
+    }
+}
+
+project(':chp_06_collections') {
+    dependencies {
+        testCompile 'org.unitils:unitils-core:3.2'
+    }
+}
+
+project(':chp_06_excel_read') {
+    dependencies {
+        testCompile 'net.sourceforge.jexcelapi:jxl:2.6.12'
+    }
+}
+
 task wrapper(type: Wrapper) {
     gradleVersion = '1.0-rc-3'
 }
