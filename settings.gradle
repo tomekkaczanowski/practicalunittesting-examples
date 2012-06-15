@@ -3,4 +3,11 @@ include 'chp_02_financial_service',
         'chp_04_football_team', 'chp_04_client',
         'chp_05_car', 'chp_05_race_results', 'chp_05_test_doubles', 'chp_05_mock_or_not',
         'chp_06_expected_exceptions', 'chp_06_stubbing_void', 'chp_06_matchers', 'chp_06_mockito_matchers',
-            'chp_06_id_generator', 'chp_06_time', 'chp_06_collections', 'chp_06_excel_read'
+            'chp_06_id_generator', 'chp_06_time', 'chp_06_collections', 'chp_06_excel_read',
+        'chp_07_capturing_arguments', 'chp_07_how_many_assertions', 'chp_07_new_operator',
+            'chp_07_private_methods_testing', 'chp_07_random', 'chp_07_test_dependencies',
+        'chp_08_custom_report', 'chp_08_listener', 'chp_08_readable_assertions', 'chp_08_reporter_log',
+        'chp_09_bdd', 'chp_09_boilerplate_code', 'chp_09_creating_objects', 'chp_09_test_fixture',
+        'chp_10_follow_the_rules', 'chp_10_overspecified_tests', 'chp_10_test_behaviour',
+            'chp_10_too_simple_to_break',
+        'chp_11_code_coverage', 'chp_11_mutation_testing', 'chp_11_refactor'
