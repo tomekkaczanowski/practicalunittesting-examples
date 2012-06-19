@@ -46,6 +46,13 @@ project(':chp_06_excel_read') {
     }
 }
 
+project(':chp_07_new_operator') {
+  dependencies {
+    testCompile 'org.powermock:powermock-module-testng:1.4.12'
+    testCompile 'org.powermock:powermock-api-mockito:1.4.12'
+  }
+}
+
 task wrapper(type: Wrapper) {
     gradleVersion = '1.0-rc-3'
 }
