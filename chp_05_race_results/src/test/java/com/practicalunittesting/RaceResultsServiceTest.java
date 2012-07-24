@@ -51,7 +51,7 @@ public class RaceResultsServiceTest {
         verify(clientB, never()).receive(message);
     }
 
-    public void shouldSendOnlyOneMassageToMultiSubscriber() {
+    public void shouldSendOnlyOneMessageToMultiSubscriber() {
         raceResults.addSubscriber(clientA);
         raceResults.addSubscriber(clientA);
         raceResults.send(message);

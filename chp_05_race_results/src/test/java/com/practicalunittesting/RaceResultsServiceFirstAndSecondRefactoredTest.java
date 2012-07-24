@@ -21,7 +21,7 @@ public class RaceResultsServiceFirstAndSecondRefactoredTest {
     private Client clientB;
 
     @BeforeMethod
-    protected void setUp() throws Exception {
+    protected void setUp() {
         raceResults = new RaceResultsService();
         message = mock(Message.class);
         clientA = mock(Client.class);
